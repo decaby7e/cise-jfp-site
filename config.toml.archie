@@ -1,0 +1,33 @@
+baseURL = "https://cise.ufl.edu/~jfp/"
+languageCode = "en-us"
+title = "Archie"
+theme="archie"
+copyright = "© Athul"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+	mode="auto"
+	featherIconsCDN=true
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/decaby7e"
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
