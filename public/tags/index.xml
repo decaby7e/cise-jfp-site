@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on jfp</title>
-    <link>https://cise.ufl.edu/tags/</link>
+    <link>https://cise.ufl.edu/~jfp/tags/</link>
     <description>Recent content in Tags on jfp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2020, jfp</copyright>
     
-	<atom:link href="https://cise.ufl.edu/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cise.ufl.edu/~jfp/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jfp</title>
-    <link>https://cise.ufl.edu/</link>
+    <link>https://cise.ufl.edu/~jfp/</link>
     <description>Recent content on jfp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2020, jfp</copyright>
     <lastBuildDate>Thu, 04 Jun 2020 01:33:31 -0400</lastBuildDate>
     
-	<atom:link href="https://cise.ufl.edu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cise.ufl.edu/~jfp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>https://cise.ufl.edu/post/hello-world/</link>
+      <link>https://cise.ufl.edu/~jfp/post/hello-world/</link>
       <pubDate>Thu, 04 Jun 2020 01:33:31 -0400</pubDate>
       
-      <guid>https://cise.ufl.edu/post/hello-world/</guid>
+      <guid>https://cise.ufl.edu/~jfp/post/hello-world/</guid>
       <description>Hello World! My first post on this website! Hopefully many more to come&amp;hellip;</description>
     </item>
     
