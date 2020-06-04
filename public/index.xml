@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Jack</copyright>
-    <lastBuildDate>Thu, 04 Jun 2020 01:33:31 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 02:28:05 -0400</lastBuildDate>
     
 	<atom:link href="https://cise.ufl.edu/~jfp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://cise.ufl.edu/~jfp/about/</link>
+      <pubDate>Thu, 04 Jun 2020 02:28:05 -0400</pubDate>
+      
+      <guid>https://cise.ufl.edu/~jfp/about/</guid>
+      <description>My name is Jack Polk and I am currently a computer science student at the University of Florida. I work at the CISE department and I intend for this website to be a hub for various projects and announcements that may be made in relation to my work in the department. If you have any questions, feel free to drop by the office @ E314 or drop me an email at jack dot polk at ufl dot edu.</description>
+    </item>
     
     <item>
       <title>Hello World</title>
@@ -18,7 +27,7 @@
       <pubDate>Thu, 04 Jun 2020 01:33:31 -0400</pubDate>
       
       <guid>https://cise.ufl.edu/~jfp/posts/hello-world/</guid>
-      <description>Hello World! My first post on this website! Hopefully many more to come&amp;hellip;
+      <description>My first post on this website! Hopefully many more to come&amp;hellip;
 rm -rf / Don&amp;rsquo;t do this kids&amp;hellip;</description>
     </item>
     

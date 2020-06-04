@@ -5,8 +5,6 @@ draft: false
 description: 'Check out my first post! Shiny...'
 ---
 
-# Hello World!
-
 My first post on this website! Hopefully many more to come...
 
 ```bash
