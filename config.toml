@@ -1,42 +1,33 @@
-baseURL = "https://cise.ufl.edu/~jfp"
+baseURL = "https://cise.ufl.edu/~jfp/"
 languageCode = "en-us"
 title = "jfp"
+theme="archie"
+copyright = "© Jack"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-theme = "devise"
-relativeURLs = true
-enableEmoji = true
-googleAnalytics = ""
-enableRobotsTXT = true
-copyright = "&copy; Copyright 2020, jfp"
-
-# Main menu items
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "About"
-    url = "/about/"
-    weight = -110
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    title = "Posts"
-    url = "/post/"
-    weight = -100
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    title = "Categories"
-    url = "/categories/"
-    weight = -90
-
-# Configuration Features
 [params]
-  header_title = "Jack Polk (jfp)"
-  header_subtitle = "Making CISE better one step at a time!"
-  home_image = "/me.jpeg"
-  recent_posts = 5
-  mainSections = ["posts", "post", "blog"]
-  [[params.social]]
-    fa_icon = "fab fa-github fa-1x"
-    href = "http://github.com/decaby7e"
+	mode="auto"
+	featherIconsCDN=true
+	subtitle = "Catch up on developments with CISE's dev-staff and follow our progress on various projects!"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/decaby7e"
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
