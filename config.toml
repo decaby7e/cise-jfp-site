@@ -18,16 +18,26 @@ icon = "github"
 url = "https://github.com/decaby7e"
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
+name = "About"
+url = "/about"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "Posts"
+url = "/posts"
 weight = 3
+
+[[menu.main]]
+name = "Notices"
+url = "/notices"
+weight = 4
+
+[[menu.main]]
+name = "Files"
+url = "/files"
+weight = 5
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 4
+weight = 10
