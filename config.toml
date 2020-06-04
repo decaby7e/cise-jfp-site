@@ -36,8 +36,3 @@ weight = 4
 name = "Files"
 url = "/files"
 weight = 5
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 10
