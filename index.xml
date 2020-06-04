@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jfp@cise</title>
+    <link>https://cise.ufl.edu/~jfp/</link>
+    <description>Recent content on jfp@cise</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright 2020, jfp</copyright>
+    <lastBuildDate>Mon, 11 May 2020 16:28:25 -0400</lastBuildDate>
+    
+	<atom:link href="https://cise.ufl.edu/~jfp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://cise.ufl.edu/~jfp/posts/hello-world/</link>
+      <pubDate>Mon, 11 May 2020 16:28:25 -0400</pubDate>
+      
+      <guid>https://cise.ufl.edu/~jfp/posts/hello-world/</guid>
+      <description>Hello World! Every site needs their first post, and here&amp;rsquo;s mine! I hope to post content relevant to CISE on this site as well as any other academic content that I find relevant to my work and academics here at UF.</description>
+    </item>
+    
+  </channel>
+</rss>
