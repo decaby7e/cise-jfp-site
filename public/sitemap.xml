@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</loc>
+    <lastmod>2020-07-11T03:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cise.ufl.edu/~jfp/posts/</loc>
+    <lastmod>2020-07-11T03:30:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cise.ufl.edu/~jfp/about/</loc>
     <lastmod>2020-06-04T02:28:05-04:00</lastmod>
   </url>
@@ -18,16 +28,7 @@
   </url>
   
   <url>
-    <loc>https://cise.ufl.edu/~jfp/posts/</loc>
-    <lastmod>2020-06-04T01:33:31-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cise.ufl.edu/~jfp/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</loc>
   </url>
   
   <url>

@@ -1,6 +1,6 @@
 ---
 title: "Data Management Architecture"
-date: 2020-07-11T003:30:00-04:00
+date: 2020-07-11T03:30:00-04:00
 draft: false
 description: 'A proposal for a standard approach to getting data into various services...'
 ---

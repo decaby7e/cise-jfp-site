@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Data Management Architecture</title>
+      <link>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</link>
+      <pubDate>Sat, 11 Jul 2020 03:30:00 -0400</pubDate>
+      
+      <guid>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</guid>
+      <description>Introduction The problem of managing logic and data has been one that has plagued developers and administrators alike for many decades and will likely continue to do so. At CISE, we encounter these issues as well, mostly regarding:
+ Networks Hosts Users Groups Files (shares)  These forms of data are all relatively simple by themselves. However, when the time comes to configure lab machines with network login using LDAP or provision hosts for those who need it in the department, things get very messy very quickly.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://cise.ufl.edu/~jfp/about/</link>
       <pubDate>Thu, 04 Jun 2020 02:28:05 -0400</pubDate>
@@ -29,16 +39,6 @@
       <guid>https://cise.ufl.edu/~jfp/posts/hello-world/</guid>
       <description>My first post on this website! Hopefully many more to come&amp;hellip;
 rm -rf / Don&amp;rsquo;t do this kids&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Data Management Architecture</title>
-      <link>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</guid>
-      <description>Introduction The problem of managing logic and data has been one that has plagued developers and administrators alike for many decades and will likely continue to do so. At CISE, we encounter these issues as well, mostly regarding:
- Networks Hosts Users Groups Files (shares)  These forms of data are all relatively simple by themselves. However, when the time comes to configure lab machines with network login using LDAP or provision hosts for those who need it in the department, things get very messy very quickly.</description>
     </item>
     
   </channel>
