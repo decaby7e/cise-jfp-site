@@ -33,10 +33,17 @@ After observing the systems that we manage at CISE every day, I have started to 
 were so obvious until I started to dig into them. While specific details were different depending on the area, one trend was consistent:
 the flow of data from source to management and finally to services.
 
-**Data (Hosts, people, etc.)**  ->  **Management (Web interface, CLI, etc.)**  ->  **Services (LDAP, DNS, etc.)**
+**Data**  ->  **Management**  ->  **Services**
+
+**Hosts, people, etc.**  ->  **Web interface, CLI, etc.**  ->  **LDAP, DNS, etc.**
 
 After noticing this rather obvious trend, I feel that structuring projects in the management section will dramatically help
 to clarify the requirements and responsibilities of a program. I will call this the DMS flow.
+
+**The core concept of the DMS flow is that the management of the data and services is a fully integrated and self-sufficient system.**
+The keystone of this system is its extreme independence, with little to no external dependencies outside of the data and services it is
+provided. In the case of the data, this concept is applied by having any databases of data as a part of the management program rather than the infrastructure. For example, if you were managing a database, you would *NOT* keep the data for managing that database in the
+database you're managing! (I'm dizzy...)
 
 ## CISE Example - Network Management System
 

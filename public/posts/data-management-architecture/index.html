@@ -65,9 +65,14 @@ or messy in nature.</p>
 <p>After observing the systems that we manage at CISE every day, I have started to realize certain trends appearing that I had not known
 were so obvious until I started to dig into them. While specific details were different depending on the area, one trend was consistent:
 the flow of data from source to management and finally to services.</p>
-<p><strong>Data (Hosts, people, etc.)</strong>  -&gt;  <strong>Management (Web interface, CLI, etc.)</strong>  -&gt;  <strong>Services (LDAP, DNS, etc.)</strong></p>
+<p><strong>Data</strong>  -&gt;  <strong>Management</strong>  -&gt;  <strong>Services</strong></p>
+<p><strong>Hosts, people, etc.</strong>  -&gt;  <strong>Web interface, CLI, etc.</strong>  -&gt;  <strong>LDAP, DNS, etc.</strong></p>
 <p>After noticing this rather obvious trend, I feel that structuring projects in the management section will dramatically help
 to clarify the requirements and responsibilities of a program. I will call this the DMS flow.</p>
+<p><strong>The core concept of the DMS flow is that the management of the data and services is a fully integrated and self-sufficient system.</strong>
+The keystone of this system is its extreme independence, with little to no external dependencies outside of the data and services it is
+provided. In the case of the data, this concept is applied by having any databases of data as a part of the management program rather than the infrastructure. For example, if you were managing a database, you would <em>NOT</em> keep the data for managing that database in the
+database you&rsquo;re managing! (I&rsquo;m dizzy&hellip;)</p>
 <h2 id="cise-example---network-management-system">CISE Example - Network Management System</h2>
 <p>Recently I had the pleasure of reworking the network management system currently in use in our department. Without sparing too
 many details, the prior system relied on a number of rather convoluted scripts with many external dependencies and little fail-safes.
