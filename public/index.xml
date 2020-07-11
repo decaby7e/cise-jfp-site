@@ -31,5 +31,15 @@
 rm -rf / Don&amp;rsquo;t do this kids&amp;hellip;</description>
     </item>
     
+    <item>
+      <title>Data Management Architecture</title>
+      <link>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</guid>
+      <description>Introduction The problem of managing logic and data has been one that has plagued developers and administrators alike for many decades and will likely continue to do so. At CISE, we encounter these issues as well, mostly regarding:
+ Networks Hosts Users Groups Files (shares)  These forms of data are all relatively simple by themselves. However, when the time comes to configure lab machines with network login using LDAP or provision hosts for those who need it in the department, things get very messy very quickly.</description>
+    </item>
+    
   </channel>
 </rss>
