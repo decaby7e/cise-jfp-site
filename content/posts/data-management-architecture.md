@@ -40,12 +40,14 @@ the flow of data from source to management and finally to services.
 After noticing this rather obvious trend, I feel that structuring projects in the management section will dramatically help
 to clarify the requirements and responsibilities of a program. I will call this the DMS flow.
 
-**The core concept of the DMS flow is that the management of the data and services is a fully integrated and self-sufficient system.**
+### Core concept #1: The management of the data and services is a fully integrated and self-sufficient system
+
 The keystone of this system is its extreme independence, with little to no external dependencies outside of the data and services it is
 provided. In the case of the data, this concept is applied by having any databases of data as a part of the management program rather than the infrastructure. For example, if you were managing a database, you would *NOT* keep the data for managing that database in the
 database you're managing! (I'm dizzy...)
 
-**Another core concept is that the data should flow as directly as possible from source (database / file) to destination (services).**
+### Core concept #2: The data should flow as directly as possible from source (database / file) to destination (services)
+
 If you're data is being input by the management system and then passed to another external system (e.g. another internal API) for
 some kind of processing, something seriously messy could be developing. It depends on your situation but a massive ammount of the time
 this should be avoided.
