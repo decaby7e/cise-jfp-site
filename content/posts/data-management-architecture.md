@@ -45,6 +45,11 @@ The keystone of this system is its extreme independence, with little to no exter
 provided. In the case of the data, this concept is applied by having any databases of data as a part of the management program rather than the infrastructure. For example, if you were managing a database, you would *NOT* keep the data for managing that database in the
 database you're managing! (I'm dizzy...)
 
+**Another core concept is that the data should flow as directly as possible from source (database / file) to destination (services).**
+If you're data is being input by the management system and then passed to another external system (e.g. another internal API) for
+some kind of processing, something seriously messy could be developing. It depends on your situation but a massive ammount of the time
+this should be avoided.
+
 ## CISE Example - Network Management System
 
 Recently I had the pleasure of reworking the network management system currently in use in our department. Without sparing too
