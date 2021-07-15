@@ -1,4 +1,4 @@
-baseURL = "https://cise.ufl.edu/~jfp/"
+baseURL = "https://cise.ufl.edu/~jack.polk/"
 languageCode = "en-us"
 title = "jfp"
 theme="archie"
@@ -8,9 +8,9 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-	mode="auto"
-	featherIconsCDN=true
-	subtitle = "Catch up on developments with CISE's dev-staff and follow our progress on various projects!"
+mode="auto"
+featherIconsCDN=true
+subtitle = "Catch up on developments with CISE's dev-staff and follow our progress on various projects!"
 
 [[params.social]]
 name = "GitHub"
@@ -26,11 +26,6 @@ weight = 2
 name = "Posts"
 url = "/posts"
 weight = 3
-
-[[menu.main]]
-name = "Notices"
-url = "/notices"
-weight = 4
 
 [[menu.main]]
 name = "Files"

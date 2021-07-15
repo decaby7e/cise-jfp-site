@@ -2,32 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on jfp</title>
-    <link>https://cise.ufl.edu/~jfp/posts/</link>
+    <link>https://cise.ufl.edu/~jack.polk/posts/</link>
     <description>Recent content in Posts on jfp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Jack</copyright>
-    <lastBuildDate>Sat, 11 Jul 2020 03:30:00 -0400</lastBuildDate>
-    
-	<atom:link href="https://cise.ufl.edu/~jfp/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 15 Jul 2021 16:44:00 -0400</lastBuildDate><atom:link href="https://cise.ufl.edu/~jack.polk/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Data Management Architecture</title>
-      <link>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</link>
-      <pubDate>Sat, 11 Jul 2020 03:30:00 -0400</pubDate>
+      <title>Account Management System Migration</title>
+      <link>https://cise.ufl.edu/~jack.polk/posts/ams-migration/</link>
+      <pubDate>Thu, 15 Jul 2021 16:44:00 -0400</pubDate>
       
-      <guid>https://cise.ufl.edu/~jfp/posts/data-management-architecture/</guid>
-      <description>Introduction The problem of managing logic and data has been one that has plagued developers and administrators alike for many decades and will likely continue to do so. At CISE, we encounter these issues as well, mostly regarding:
- Networks Hosts Users Groups Files (shares)  These forms of data are all relatively simple by themselves. However, when the time comes to configure lab machines with network login using LDAP or provision hosts for those who need it in the department, things get very messy very quickly.</description>
+      <guid>https://cise.ufl.edu/~jack.polk/posts/ams-migration/</guid>
+      <description>The time has been approaching for some time now and it has finally arrived: the CISE Account Management System has undergone a major overhaul and has been fundamentally restructured with user experience and simplicity in mind. If you never had a legacy CISE account, you may be wondering what all of this is about. If you did have a legacy CISE account, you may be worrying how this will affect you and your old account.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://cise.ufl.edu/~jfp/posts/hello-world/</link>
+      <link>https://cise.ufl.edu/~jack.polk/posts/hello-world/</link>
       <pubDate>Thu, 04 Jun 2020 01:33:31 -0400</pubDate>
       
-      <guid>https://cise.ufl.edu/~jfp/posts/hello-world/</guid>
+      <guid>https://cise.ufl.edu/~jack.polk/posts/hello-world/</guid>
       <description>My first post on this website! Hopefully many more to come&amp;hellip;
 rm -rf / Don&amp;rsquo;t do this kids&amp;hellip;</description>
     </item>

@@ -1,8 +1,8 @@
 ---
 title: "Data Management Architecture"
 date: 2020-07-11T03:30:00-04:00
-draft: false
-description: 'A proposal for a standard approach to getting data into various services...'
+draft: true
+description: "A proposal for a standard approach to getting data into various services..."
 ---
 
 ## Introduction
@@ -33,9 +33,9 @@ After observing the systems that we manage at CISE every day, I have started to 
 were so obvious until I started to dig into them. While specific details were different depending on the area, one trend was consistent:
 the flow of data from source to management and finally to services.
 
-**Data**  ->  **Management**  ->  **Services**
+**Data** -> **Management** -> **Services**
 
-**Hosts, people, etc.**  ->  **Web interface, CLI, etc.**  ->  **LDAP, DNS, etc.**
+**Hosts, people, etc.** -> **Web interface, CLI, etc.** -> **LDAP, DNS, etc.**
 
 After noticing this rather obvious trend, I feel that structuring projects in the management section will dramatically help
 to clarify the requirements and responsibilities of a program. I will call this the DMS flow.
@@ -43,7 +43,7 @@ to clarify the requirements and responsibilities of a program. I will call this 
 ### Core concept #1: The management of the data and services is a fully integrated and self-sufficient system
 
 The keystone of this system is its extreme independence, with little to no external dependencies outside of the data and services it is
-provided. In the case of the data, this concept is applied by having any databases of data as a part of the management program rather than the infrastructure. For example, if you were managing a database, you would *NOT* keep the data for managing that database in the
+provided. In the case of the data, this concept is applied by having any databases of data as a part of the management program rather than the infrastructure. For example, if you were managing a database, you would _NOT_ keep the data for managing that database in the
 database you're managing! (I'm dizzy...)
 
 ### Core concept #2: The data should flow as directly as possible from source (database / file) to destination (services)
@@ -60,12 +60,12 @@ However, keeping in mind the DMS flow, I ensured my program was cleanly position
 mix the two (e.g. using the services as a source of data). The end was a nice package with the ability to accomplish what the old
 system could in quite literally 10% of the code with many more features also bundled in as a bonus.
 
-**Hosts**  ->  **Network Management System**  ->  **DNS and DHCP**
+**Hosts** -> **Network Management System** -> **DNS and DHCP**
 
 ## Conclusion
 
-This system could use some work and the idea of it as a distinct concept is rather new to me, although the idea of working with data, 
+This system could use some work and the idea of it as a distinct concept is rather new to me, although the idea of working with data,
 logic, and services have been quite clear to me for some time 😛. I simply hope to lay out my thoughts in an attempt to improve on
-these ideas and perhaps form a reusable framework for these kinds of things. I also am curious to know whether or not a CLI + 
-configuration files is such a bad thing compared to a web interface from an administrative perspective (from a user perspective I still 
+these ideas and perhaps form a reusable framework for these kinds of things. I also am curious to know whether or not a CLI +
+configuration files is such a bad thing compared to a web interface from an administrative perspective (from a user perspective I still
 see web interfaces as reigning supreme.)

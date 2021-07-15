@@ -2,14 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on jfp</title>
-    <link>https://cise.ufl.edu/~jfp/tags/</link>
+    <link>https://cise.ufl.edu/~jack.polk/tags/</link>
     <description>Recent content in Tags on jfp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Jack</copyright>
-    
-	<atom:link href="https://cise.ufl.edu/~jfp/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>© Jack</copyright><atom:link href="https://cise.ufl.edu/~jack.polk/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
