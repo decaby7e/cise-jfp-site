@@ -16,7 +16,7 @@ fi
 # Build and setup the webroot
 hugo -s "$tmp/home-site" -d "$HOME/public_html/"
 rsync -a --delete --exclude 'files' "$tmp/home-site/public/" "$HOME/public_html/"
-"$script_path/gen-directory-index.py" "$HOME/public_html/files/"
+"$script_path/gen-directory-index.py" -r "$HOME/public_html/files/"
 
 rm -rf $tmp
 
