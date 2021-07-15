@@ -8,33 +8,33 @@ description: "The old account management system used at CISE for over 20 years h
 The time has been approaching for some time now and it has finally arrived: the
 CISE Account Management System has undergone a major overhaul and has been
 fundamentally restructured with user experience and simplicity in mind. If you
-never had a legacy CISE account, you may be wondering what all of this is about.
-If you did have a legacy CISE account, you may be worrying how this will affect
+never had a legacy CISE Account, you may be wondering what all of this is about.
+If you did have a legacy CISE Account, you may be worrying how this will affect
 you and your old account. This blog post aims to answer all these questions and
-provide useful insight into what a CISE account is, what it can be used for, and
+provide useful insight into what a CISE Account is, what it can be used for, and
 how this migration will impact you as a student, faculty, or staff member.
 
 ## What is a CISE Account?
 
-A CISE account is an account affiliated with your Gatorlink account that grants
+A CISE Account is an account affiliated with your Gatorlink account that grants
 you access to restricted resources, such as database servers, lab machines, and
-much more. You may be allowed to have a CISE account if you are taking computer
+much more. You may be allowed to have a CISE Account if you are taking computer
 science classes, are pursuing a computer science degree, or are working at the
 CISE department as a staff or faculty member.
 
-In the past, CISE account were distinct entities from Gatorlink accounts. These
+In the past, CISE Account were distinct entities from Gatorlink accounts. These
 **legacy accounts** had their own username, password, and personal details.
-However, as of June of 2021, CISE accounts are **extensions of Gatorlink
-accounts**. This means that, when accessing your CISE account dashboard at
+However, as of June of 2021, CISE Accounts are **extensions of Gatorlink
+accounts**. This means that, when accessing your CISE Account dashboard at
 <https://register.cise.ufl.edu>, _you login using your Gatorlink username and
 password_.
 
 ## What can I do with my CISE Account?
 
-The entire purpose for CISE accounts is to provide functionality to users that
+The entire purpose for CISE Accounts is to provide functionality to users that
 would not be possible to provide otherwise. If this functionality could be
 provided without our own Account Management System, we would simply use
-Gatorlink accounts everywhere. So what can you actually do with a CISE account?
+Gatorlink accounts everywhere. So what can you actually do with a CISE Account?
 
 ### 1. Access to Linux Computers
 
@@ -81,9 +81,9 @@ All home directories have an associated quota that is viewable at
 quota sizes. If for a critical reason you need more disk space, please contact
 `support at cise dot ufl dot edu`.
 
-## How will this migration affect my existing CISE account?
+## How will this migration affect my existing CISE Account?
 
-If you already had a CISE account before this migration, you may be concerned
+If you already had a CISE Account before this migration, you may be concerned
 about the negative implications of this migration on how you use your account.
 The following changes have been made that may or may not need your
 consideration:
@@ -99,8 +99,13 @@ referenced your home directory or username, these should be updated.**
 
 ## Conclusion
 
-If you still have questions or concerns, feel free to contact me at `jfp at cise dot ufl dot edu`. If you are having problems with your CISE account, go to
-register.cise.ufl.edu to ensure it works or email `support at cise dot ufl dot edu` with your problems.
+If you are curious about the full extent of what you can do with your CISE
+Account, visit <https://register.cise.ufl.edu>. This portal will allow you to
+make any changes or view any information regarding your CISE Account.
+
+If you still have questions or concerns, feel free to contact me at `jfp at cise dot ufl dot edu`.
+
+If you are having problems with your CISE Account, email `support at cise dot ufl dot edu` with your problems.
 
 ## Appendix
 
