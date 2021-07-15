@@ -20,6 +20,6 @@ rsync -a --delete --exclude 'files' "$tmp/home-site/public/" "$HOME/public_html/
 
 rm -rf $tmp
 
-echo "Successfully deployed site to https://cise.ufl.edu/~$USERNAME/"
+echo "Successfully deployed site to https://cise.ufl.edu/~$USER/"
 
 exit 0
