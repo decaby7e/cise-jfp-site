@@ -1,5 +1,5 @@
 ---
-title: "Account Management System Migration"
+title: "Account Management System Overview"
 date: 2021-07-15T16:44:00-04:00
 draft: false
 description: "The old account management system used at CISE for over 20 years has undergone some big changes..."

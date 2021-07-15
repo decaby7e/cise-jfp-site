@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Account Management System Overview - jfp</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Account Management System Overview" />
+<meta property="og:description" content="The old account management system used at CISE for over 20 years has undergone some big changes..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cise.ufl.edu/~jack.polk/posts/ams-overview/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-15T16:44:00-04:00" />
+<meta property="article:modified_time" content="2021-07-15T16:44:00-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Account Management System Overview"/>
+<meta name="twitter:description" content="The old account management system used at CISE for over 20 years has undergone some big changes..."/>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cise.ufl.edu/~jack.polk/css/main.css" /><link rel="stylesheet" type="text/css" href="https://cise.ufl.edu/~jack.polk/css/dark.css" media="(prefers-color-scheme: dark)" />
+</head><body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://cise.ufl.edu/~jack.polk/">jfp</a>
+		<span></span><a class="soc" href="https://github.com/decaby7e" title="GitHub"><i data-feather="github"></i></a></div>
+	<nav>
+		
+		<a href="/~jack.polk/about">About</a>
+		
+		<a href="/~jack.polk/posts">Posts</a>
+		
+		<a href="/~jack.polk/files">Files</a>
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Account Management System Overview</h1>
+			<div class="meta">Posted on Jul 15, 2021</div>
+		</div>
+		
+
+		<section class="body">
+			<p>The time has been approaching for some time now and it has finally arrived: the
+CISE Account Management System has undergone a major overhaul and has been
+fundamentally restructured with user experience and simplicity in mind. If you
+never had a legacy CISE Account, you may be wondering what all of this is about.
+If you did have a legacy CISE Account, you may be worrying how this will affect
+you and your old account. This blog post aims to answer all these questions and
+provide useful insight into what a CISE Account is, what it can be used for, and
+how this migration will impact you as a student, faculty, or staff member.</p>
+<h2 id="what-is-a-cise-account">What is a CISE Account?</h2>
+<p>A CISE Account is an account affiliated with your Gatorlink account that grants
+you access to restricted resources, such as database servers, lab machines, and
+much more. You may be allowed to have a CISE Account if you are taking computer
+science classes, are pursuing a computer science degree, or are working at the
+CISE department as a staff or faculty member.</p>
+<p>In the past, CISE Account were distinct entities from Gatorlink accounts. These
+<strong>legacy accounts</strong> had their own username, password, and personal details.
+However, as of June of 2021, CISE Accounts are <strong>extensions of Gatorlink
+accounts</strong>. This means that, when accessing your CISE Account dashboard at
+<a href="https://register.cise.ufl.edu">https://register.cise.ufl.edu</a>, <em>you login using your Gatorlink username and
+password</em>.</p>
+<h2 id="what-can-i-do-with-my-cise-account">What can I do with my CISE Account?</h2>
+<p>The entire purpose for CISE Accounts is to provide functionality to users that
+would not be possible to provide otherwise. If this functionality could be
+provided without our own Account Management System, we would simply use
+Gatorlink accounts everywhere. So what can you actually do with a CISE Account?</p>
+<h3 id="1-access-to-linux-computers">1. Access to Linux Computers</h3>
+<p>CISE operates what could be the largest collection of accessible Linux machines
+at the University of Florida. Most of our labs have Linux machines in them and
+we also provide bastion servers [1] where multiple users can obtain access to a
+non-graphical Linux environments over SSH. To access these machines, simply
+login using your Gatorlink username and password. When using any Linux machine,
+your <a href="#4.-home-directory-and-home-website">home directory</a> is mounted over the
+network and shared between all computers.</p>
+<p>For collaboration between accounts, you may need to use Linux groups. Although
+you do not have access to create groups on local machines, you can create groups
+through <a href="https://register.cise.ufl.edu/groups/">https://register.cise.ufl.edu/groups/</a>.</p>
+<h3 id="2-access-to-hosted-databases">2. Access to Hosted Databases</h3>
+<p>Databases can be used for a variety of purposes, ranging from educational
+through classes to practical through application development. Whatever the
+purpose, so long as you adhere to the appropriate policies, you can create and
+use databases with ease through CISE&rsquo;s hosted databases platform, located at
+<a href="https://register.cise.ufl.edu">https://register.cise.ufl.edu</a>.</p>
+<p>We offer MySQL, Postgres, and Oracle Database servers. Do note, however, that
+Oracle database accounts and databases may be wiped at the end of each semester.</p>
+<h3 id="3-printing-privilages">3. Printing Privilages</h3>
+<p>Within CISE, on machines that are compatible, you have access to printers within
+the building. You have a certain monthly quota, viewable at
+<a href="https://register.cise.ufl.edu/quotas/">https://register.cise.ufl.edu/quotas/</a>. All lab machines have access to these
+printers, Windows and Linux alike.</p>
+<h3 id="4-home-directory-and-home-website">4. Home Directory and Home Website</h3>
+<p>As mentioned before, when accessing any CISE managed computer, you will have
+universal access to your home directory. On Linux machines, this is transparent
+and means that changes you make on one machine to your account&rsquo;s home will
+persist on all other machines. On Windows machines, this home share is
+accessible through File Explorer as a network mount.</p>
+<p>All home directories have an associated quota that is viewable at
+<a href="https://register.cise.ufl.edu/quotas/">https://register.cise.ufl.edu/quotas/</a>. Different account types have different
+quota sizes. If for a critical reason you need more disk space, please contact
+<code>support at cise dot ufl dot edu</code>.</p>
+<h2 id="how-will-this-migration-affect-my-existing-cise-account">How will this migration affect my existing CISE Account?</h2>
+<p>If you already had a CISE Account before this migration, you may be concerned
+about the negative implications of this migration on how you use your account.
+The following changes have been made that may or may not need your
+consideration:</p>
+<ol>
+<li>CISE usernames are no longer used to log in to machines</li>
+<li>Home websites now use your gatorlink (e.g. <a href="https://cise.ufl.edu/~GATORLINK/">https://cise.ufl.edu/~GATORLINK/</a>)
+<ul>
+<li>If you had an active home website before, your website is still accessible at <a href="https://cise.ufl.edu/~CISE_USERNAME/">https://cise.ufl.edu/~CISE_USERNAME/</a></li>
+</ul>
+</li>
+<li>Your home directory has been renamed to match your gatorlink (e.g. /cise/homes/GATORLINK/)</li>
+</ol>
+<p>Most people should not be impacted by this change, especially if your legacy
+account&rsquo;s username already matched your Gatorlink. <strong>If you had scripts that
+referenced your home directory or username, these should be updated.</strong></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>If you are curious about the full extent of what you can do with your CISE
+Account, visit <a href="https://register.cise.ufl.edu">https://register.cise.ufl.edu</a>. This portal will allow you to
+make any changes or view any information regarding your CISE Account.</p>
+<p>If you still have questions or concerns, feel free to contact me at <code>jfp at cise dot ufl dot edu</code>.</p>
+<p>If you are having problems with your CISE Account, email <code>support at cise dot ufl dot edu</code> with your problems.</p>
+<h2 id="appendix">Appendix</h2>
+<ol>
+<li>Public Linux bastion servers: rain.cise.ufl.edu, storm.cise.ufl.edu, thunder.cise.ufl.edu, gpus[1:3].cise.ufl.edu</li>
+</ol>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+<hr>
+2021  © Jack 
+</footer>
+
+
+<script>
+      feather.replace()
+</script>
+
+</div>
+    </body>
+</html>
